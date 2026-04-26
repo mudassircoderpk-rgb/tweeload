@@ -37,6 +37,7 @@ logger = logging.getLogger(__name__)
 
 
 app.mount("/static", StaticFiles(directory="static"), name="static")
+app.mount("/images", StaticFiles(directory="images"), name="images")
 
 
 @app.get("/")

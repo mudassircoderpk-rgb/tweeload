@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Block API endpoints
+Disallow: /api/
+Disallow: /api/v1/
+
+# Sitemap
+Sitemap: https://tweeload.up.railway.app/sitemap.xml
